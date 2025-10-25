@@ -191,21 +191,21 @@
     // Australia.
     function initMap() {
       var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 21,
+        zoom: 15,
         center: {
           lat: -12.185195981299515,
           lng: -76.99723638091946
         },
       });
 
-      //var image = 'images/maps-and-flags.png';
+      var image = 'images/maps-and-flags.png';
       var beachMarker = new google.maps.Marker({
         position: {
           lat: -12.185195981299515,
           lng: -76.99723638091946
         },
         map: map,
-       // icon: image
+        icon: image
       });
     }
   </script>
@@ -217,6 +217,7 @@
 
 
 </html>
+
 
 
 
